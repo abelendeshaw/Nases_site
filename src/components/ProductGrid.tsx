@@ -36,7 +36,7 @@ const defaultProducts: Product[] = [
     description:
       "High-quality, gluten-free ancient grain from Ethiopia's highlands",
     imageUrl:
-      "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?w=800&auto=format&fit=crop",
+      "/rteff.jpg",
     price: 850,
     specifications: {
       origin: "Oromia Region",
@@ -50,7 +50,7 @@ const defaultProducts: Product[] = [
     title: "Organic Red Kidney Beans",
     description: "Premium quality organic kidney beans from sustainable farms",
     imageUrl:
-      "https://images.unsplash.com/photo-1551489186-cf8726f514f8?w=800&auto=format&fit=crop",
+      "/white_s3.jpg",
     price: 720,
     specifications: {
       origin: "Amhara Region",
@@ -64,7 +64,35 @@ const defaultProducts: Product[] = [
     title: "Ethiopian White Wheat",
     description: "Premium white wheat grown in Ethiopia's fertile highlands",
     imageUrl:
-      "https://images.unsplash.com/photo-1565591452825-67d6b7df1d47?w=800&auto=format&fit=crop",
+      "/soya2.jpg",
+    price: 680,
+    specifications: {
+      origin: "Tigray Region",
+      grade: "Grade B+",
+      quantity: "25MT minimum",
+    },
+    category: "Grains",
+  },
+  {
+    id: 4,
+    title: "Ethiopian White Wheat",
+    description: "Premium white wheat grown in Ethiopia's fertile highlands",
+    imageUrl:
+      "/mung.jpg",
+    price: 680,
+    specifications: {
+      origin: "Tigray Region",
+      grade: "Grade B+",
+      quantity: "25MT minimum",
+    },
+    category: "Grains",
+  },
+  {
+    id: 5,
+    title: "Ethiopian White Wheat",
+    description: "Premium white wheat grown in Ethiopia's fertile highlands",
+    imageUrl:
+      "/wteff2.jpg",
     price: 680,
     specifications: {
       origin: "Tigray Region",

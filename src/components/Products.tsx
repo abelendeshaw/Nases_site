@@ -17,7 +17,7 @@ const products: Product[] = [
     description:
       "Ethiopia's ancient grain, perfect for making injera and gluten-free baking",
     image:
-      "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?w=800&auto=format&fit=crop",
+      "/soya2.jpg",
     category: "Grains",
   },
   {
@@ -25,7 +25,7 @@ const products: Product[] = [
     name: "Red Kidney Beans",
     description: "High-quality kidney beans from sustainable farms",
     image:
-      "https://images.unsplash.com/photo-1551489186-cf8726f514f8?w=800&auto=format&fit=crop",
+      "/wteff3.jpg",
     category: "Beans",
   },
   {
@@ -33,7 +33,7 @@ const products: Product[] = [
     name: "White Wheat",
     description: "Premium white wheat from Ethiopia's highlands",
     image:
-      "https://images.unsplash.com/photo-1565591452825-67d6b7df1d47?w=800&auto=format&fit=crop",
+      "/rteff.jpg",
     category: "Grains",
   },
   {
@@ -41,7 +41,7 @@ const products: Product[] = [
     name: "Chickpeas",
     description: "Nutrient-rich chickpeas perfect for various cuisines",
     image:
-      "https://images.unsplash.com/photo-1515543904379-3d757afe72e3?w=800&auto=format&fit=crop",
+      "/white_s.jpg",
     category: "Beans",
   },
   {
@@ -49,7 +49,7 @@ const products: Product[] = [
     name: "Barley",
     description: "High-grade barley ideal for brewing and food production",
     image:
-      "https://images.unsplash.com/photo-1594661699870-6cb4d9d74c33?w=800&auto=format&fit=crop",
+      "/mung.jpg",
     category: "Grains",
   },
   {
@@ -57,7 +57,7 @@ const products: Product[] = [
     name: "Green Mung Beans",
     description: "Premium quality mung beans for sprouting and cooking",
     image:
-      "https://images.unsplash.com/photo-1612257999691-43d10d6df40d?w=800&auto=format&fit=crop",
+      "/wteff3.jpg",
     category: "Beans",
   },
 ];

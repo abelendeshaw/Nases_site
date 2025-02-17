@@ -1,13 +1,11 @@
-import React from "react";
+
 import {
   Card,
   CardContent,
   CardDescription,
-  CardFooter,
   CardHeader,
   CardTitle,
 } from "./ui/card";
-import { Button } from "./ui/button";
 import { Badge } from "./ui/badge";
 import {
   Tooltip,
@@ -34,7 +32,7 @@ interface ProductCardProps {
 const ProductCard = ({
   title = "Premium Ethiopian Teff",
   description = "High-quality, gluten-free ancient grain from Ethiopia's highlands",
-  imageUrl = "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?w=800&auto=format&fit=crop",
+  imageUrl = "/soya2.jpg",
   price = 850,
   specifications = {
     origin: "Oromia Region",

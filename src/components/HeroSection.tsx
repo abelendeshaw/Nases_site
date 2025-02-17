@@ -14,9 +14,9 @@ const HeroSection = ({
   title = "Ethiopia's Premium Grain Exports",
   subtitle = "Delivering sustainable, high-quality grains from Ethiopia's fertile highlands to the world market",
   backgroundImages = [
-    "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1920&h=1080&fit=crop",
-    "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?w=1920&h=1080&fit=crop",
-    "https://images.unsplash.com/photo-1530267981375-f08b1e5731df?w=1920&h=1080&fit=crop",
+    "/white_s.jpg",
+    "/soya2.jpg",
+    "/wteff1.jpg",
   ],
   onQuoteRequest = () => console.log("Quote requested"),
   onExportInquiry = () => console.log("Export inquiry"),
