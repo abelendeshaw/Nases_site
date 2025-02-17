@@ -3,6 +3,8 @@ import { motion } from "framer-motion";
 import { Card, CardContent } from "./ui/card";
 import { Users, Award, Globe2, Sprout } from "lucide-react";
 
+import Header from "./Header";
+
 const AboutUs = () => {
   const values = [
     {
@@ -29,7 +31,8 @@ const AboutUs = () => {
   ];
 
   return (
-    <div className="min-h-screen pt-20 bg-white">
+    <div className="min-h-screen bg-white">
+      <Header />
       {/* Hero Section */}
       <div className="relative h-[400px] bg-black overflow-hidden">
         <div

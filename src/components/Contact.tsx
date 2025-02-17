@@ -6,6 +6,8 @@ import { Textarea } from "./ui/textarea";
 import { Button } from "./ui/button";
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
 
+import Header from "./Header";
+
 const Contact = () => {
   const contactInfo = [
     {
@@ -34,17 +36,15 @@ const Contact = () => {
   ];
 
   return (
-    <div className="min-h-screen pt-20 bg-white">
+    <div className="min-h-screen bg-white">
+      <Header />
+      <div className="pt-20 pb-12 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4">
+          <h1 className="text-4xl font-bold text-center">Contact Us</h1>
+        </div>
+      </div>
       {/* Contact Info Section */}
       <div className="max-w-7xl mx-auto px-4 py-16">
-        <motion.h1
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          className="text-4xl font-bold text-center mb-12"
-        >
-          Contact Us
-        </motion.h1>
-
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
           {contactInfo.map((info, index) => (
             <Card key={index}>
